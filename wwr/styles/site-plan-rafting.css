@@ -2,18 +2,18 @@
 
 
 :root {
---primary-color: #F7F0F5;
---secondary-color: #DECBB7;
---accent1-color: #8F857D;
---accent2-color: #5C5552;
+--primary-color: #5C5552;
+--secondary-color: #8F857D;
+--accent1-color: #DECBB7;
+--accent2-color: #F7F0F5;
 
---heading-font: 'Open Sans', serif;
---paragraph-font: 'Roboto', serif;
+--heading-font: 'Open Sans', sans-serif;
+--paragraph-font: 'Roboto', sans-serif;
 
---nav-background-color: red;
---nav-link-color: blue;
---nav-hover-link-color: yellow;
---nav-hover-background-color: green;
+--nav-background-color: #5C5552;
+--nav-link-color: #DECBB7;
+--nav-hover-link-color: #8F857D;
+--nav-hover-background-color: #F7F0F5;
 }
 
 body {

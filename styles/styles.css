@@ -19,7 +19,7 @@ main img {
     border: 1px solid steelblue;
     padding: 2px;
     box-shadow: 0 0 30px gray;
-    float: right
+    float: right;
   }
 
 p {
@@ -34,6 +34,7 @@ main {
 aside {
   margin: 10px;
   text-align: center;
+  position: relative;
 }
 
 aside img {
@@ -42,10 +43,10 @@ aside img {
   }
 
 aside h2{
-    position: relative;
+    position: absolute;
     /* Might need to change px count */
-    top:0px;
-    left:0px;
+    top:50px;
+    left:150px;
 }
   
 footer {
@@ -55,8 +56,8 @@ footer {
   }
 
 * {
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 

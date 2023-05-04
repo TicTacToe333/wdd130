@@ -44,8 +44,8 @@ aside img {
 aside h2{
     position: relative;
     /* Might need to change px count */
-    top:50px;
-    left:20px;
+    top:0px;
+    left:0px;
 }
   
 footer {

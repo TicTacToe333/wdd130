@@ -38,15 +38,15 @@ aside {
 }
 
 aside img {
-    width: 250px;
+    width: 200px;
     height: auto;
   }
 
 aside h2{
     position: absolute;
     /* Might need to change px count */
-    top:50px;
-    left:150px;
+    top: 0px;
+    left:300px;
 }
   
 footer {

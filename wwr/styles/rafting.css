@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400&family=Roboto:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #5C5552;
+    --secondary-color: #8F857D;
+    --accent1-color: #DECBB7;
+    --accent2-color: #F7F0F5;
+    
+    --heading-font: 'Open Sans', sans-serif;
+    --paragraph-font: 'Roboto', sans-serif;
+    
+    --nav-background-color: #5C5552;
+    --nav-link-color: #DECBB7;
+    --nav-hover-link-color: #8F857D;
+    --nav-hover-background-color: #F7F0F5;
+    }
+
+h1,h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+    }
+    
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+    color: var(--secondary-color);
+    margin:0 auto;
+    }
+
+header {
+    padding: 20px;
+    background-color: var(--accent1-color);
+    }               
+nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+
+/*CSS for the hero class*/
+.hero{
+    position:relative;
+}
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+.hero h1{
+    position:absolute;
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+    background-color: var(--accent2-color);
+    top: 100px;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+.hero article{  
+    position: absolute;
+    max-width: 90%;
+    left: 0;
+    right: 0;
+    background-color: var(--primary-color);
+    top: 250px;
+    margin: 0 auto;
+}
+.hero article img{
+    float:right;
+    display: block;
+    width: 300px;
+    height: auto;
+}
+
+.sociallinks {
+    width:85px;
+    height:85px;
+    text-decoration: none;
+}
+

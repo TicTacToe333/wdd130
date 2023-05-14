@@ -37,6 +37,9 @@ body {
 header {
     padding: 20px;
     background-color: var(--accent1-color);
+    display:grid;
+    align-items: center;
+    grid-template-columns: repeat(5,auto);
     }               
 nav a {
     display: block;
@@ -83,8 +86,11 @@ nav a {
 }
 
 .sociallinks {
-    width:85px;
-    height:85px;
+    width:auto;
+    height:auto;;
     text-decoration: none;
+    display:flex;
+    gap: 10px;
+    justify-content:flex-end;
 }
 

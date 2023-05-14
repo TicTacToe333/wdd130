@@ -48,6 +48,18 @@ nav a {
     padding: 1rem;
 }
 
+.adventure {
+    display:grid;
+    align-items: center;
+    gap:10px;
+    grid-template-columns: repeat(5,1f);
+    
+}
+.adventure h2{
+    grid-column: 1/6;
+    text-align:center;
+}
+
 /*CSS for the hero class*/
 .hero{
     position:relative;

@@ -64,8 +64,8 @@ aside img {
 aside h2{
   position: absolute;
   /* Might need to change px count */
-  top: 50px;
-  left:200px;
+  top: 70px;
+  left:100px;
   color:red;
 }
   

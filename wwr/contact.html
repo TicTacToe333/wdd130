@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <meta name="description" content="This is the contact page for a White Water Rafting Site.">
+    <meta name="author" content="Aiden Edwards">
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+<body>  
+    <header>
+        <img src="images/logo.jpeg" alt="Rafting Site Logo">
+        <a href="index.html">Front Page</a>
+        <a href="about.html">About Page</a>
+        <a href="trips.html">Trips</a>
+        <a href="contact.html">Contact</a>
+    </header>
+    <main>
+        <section class="adventure">
+            <h1>White Water Rafting Company</h1>
+            <h2>Meet Our Employees!</h2>
+            <figure>
+                <img src="images/john smith.jpg" alt="John Smith">
+                <figcaption>John Smith</figcaption>
+            </figure>
+            <figure>
+                <img src="images/jane doe.jpg" alt="Jane Doe">
+                <figcaption>Jane Doe</figcaption>
+            </figure>
+            <figure>
+                <img src="images/john smith2.jpg" alt="John Smith 2">
+                <figcaption>John Smith the Sequel</figcaption>
+            </figure>
+        </section>
+        <section>
+            <p>Address: 123 Seasme Street</p>
+            <p>Phone Number: (555)-555-5555</p>
+            <p>Email: wwrcompany@gmail.com</p>
+        </section> 
+       <!-- The text is visible, but it is white. Recolor using CSS -->
+        <form>
+            <label for="name">Enter your name:</label>
+            <input type="text" id="name" name="name">
+            <label for="email">Enter your email:</label>
+            <input type="text" id="email" name="email">
+
+            <p>Please select your reason for comment:</p>
+            <label for="general">General Quesion</label><br>
+            <input type="radio" id="general" name="general" value="general">
+            <label for="general">General Quesion</label><br>
+            <input type="radio" id="reservation" name="reservation" value="reservation">
+            <label for="reservation">Reservation Question</label><br>
+            <input type="radio" id="suggestion" name="suggestion" value="suggestion">
+            <label for="suggestion">Website Suggestion</label>
+
+            <textarea id="comment" name="comment" rows="4" placeholder="Leave your comment here!"></textarea>
+            
+            <input type="checkbox" id="newsletter" name="newsletter" value="newsletter">
+            <label for="newsletter">Please subscribe me to the monthly newsletter</label><br>
+
+            <button type="submit">Submit Poll</button>
+        </form>
+    </main>
+    <footer>
+        <p>©️2023 White Water Rafting Company, Aiden Edwards</p>
+        
+        <nav class="sociallinks">
+            <a href="https://facebook.com">
+            <img src="images/facebook.svg" alt="Facebook" width="60" height="60">
+            </a>
+            <a href="https://twitter.com">
+            <img src="images/twitter.svg" alt="Twitter" width="60" height="60">
+            </a>
+            <a href="https://instagram.com">
+            <img src="images/instagram.svg" alt="Instagram" width="60" height="60">
+            </a>
+        </nav>
+        <a href="contact-siteplan.html">Contact Siteplan</a>
+    </footer>
+</body>
+</html>

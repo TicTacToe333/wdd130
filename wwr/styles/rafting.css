@@ -30,7 +30,7 @@ body {
     font-family: var(--paragraph-font);
     max-width: 960px;
     padding: 20px;
-    color: var(--accent1-color);
+    color: var(--accent2-color);
     margin:0 auto;
     background-color: var(--accent2-color);
     }
@@ -121,3 +121,12 @@ footer {
     justify-content:flex-end;
 }
 
+button {
+    margin: 1rem;
+    background-color: navy;
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+}

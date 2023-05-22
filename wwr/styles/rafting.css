@@ -123,8 +123,8 @@ footer {
 
 button {
     margin: 1rem;
-    background-color: navy;
-    color: #fff;
+    background-color: var(--primary-color);
+    color: var(--accent2-color);
     border: none;
     border-radius: .5rem;
     padding: .75rem;
@@ -132,12 +132,13 @@ button {
 }
 
 form {
-    width: 650px;
+    width:auto;
     margin: 0 auto;
     padding: 1rem;
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 0.5rem;
-    background-color: #eee;
+    background-color: var(--accent1-color);
+    color:var(--primary-color);
     display: grid;
 }
 
@@ -149,22 +150,9 @@ fieldset {
     padding: 1rem;
 }
 
-
-
-
 .form-item {
     display: grid;
-    align-items: center;
-}
-
-.column1 {
-    grid-template-columns: 3fr 1fr;
-    margin: 0.5rem 0;
-    
-}
-
-.column2 {
-    color:var(--primary-color);
-    grid-template-columns: 1fr 2fr;
+    align-items:start;
+    grid-template-columns: auto auto auto;
     padding:0.5rem;
 }

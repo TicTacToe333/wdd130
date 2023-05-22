@@ -12,64 +12,62 @@
 <body>  
     <header>
         <img src="images/logo.jpeg" alt="Rafting Site Logo">
-        <a href="index.html">Front Page</a>
-        <a href="about.html">About Page</a>
-        <a href="trips.html">Trips</a>
-        <a href="contact.html">Contact</a>
+        <a href="index.html"><b>Front Page</b></a>
+        <a href="about.html"><b>About Page</b></a>
+        <a href="trips.html"><b>Trips</b></a>
+        <a href="contact.html"><b>Contact</b></a>
     </header>
     <main>
-        <h1>White Water Rafting Company</h1>
+        <h1>White Water Rafting Company Contact Page</h1>
         <section>
-            <p>Address: 123 Seasme Street</p>
-            <p>Phone Number: (555)-555-5555</p>
-            <p>Email: wwrcompany@gmail.com</p>
+            <p><b>Address: 123 Seasme Street</b></p>
+            <p><b>Phone Number: (555)-555-5555</b></p>
+            <p><b>Email: wwrcompany@gmail.com</b></p> 
             <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1578.1006733123945!2d-112.136606282474!3d36.05089605208454!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1684633558697!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </section>
         <section class="adventure">
             <h2>Meet Our Employees!</h2>
             <figure>
-                <img src="images/john smith.jpg" alt="John Smith">
+                <img src="images/john_smith.jpg" alt="John Smith">
                 <figcaption>John Smith</figcaption>
             </figure>
             <figure>
-                <img src="images/jane doe.jpg" alt="Jane Doe">
+                <img src="images/jane_doe.jpg" alt="Jane Doe">
                 <figcaption>Jane Doe</figcaption>
             </figure>
             <figure>
-                <img src="images/john smith2.jpg" alt="John Smith 2">
+                <img src="images/john_smith2.jpg" alt="John Smith 2">
                 <figcaption>John Smith the Sequel</figcaption>
             </figure>
         </section>
  
-       <!-- The text is visible, but it is white. Recolor using CSS -->
-       <!-- Mostly all that is left is to do CSS for the checkbox and radio buttons. Also make things look nice -->
-       <!-- Also wireframe -->
         <form>
             <fieldset><h2>Have a commment? Leave it here!</h2></fieldset>
             <fieldset>
-            <div class="form-item column2">
+            <div class="form-item">
             <label for="name">Enter your name:</label>
             <input type="text" id="name" name="name">
             </div>
-            <div class="form-item column2">
+            <div class="form-item">
             <label for="email">Enter your email:</label>
             <input type="text" id="email" name="email">
             </div>
-            <div class="form-item column1"></div>
+
             <p>Please select your reason for comment:</p>
+            <div class="form-item">
+            <input type="radio" id="general" name="reason" value="general">
             <label for="general">General Quesion</label><br>
-            <input type="radio" id="general" name="general" value="general">
-            <label for="general">General Quesion</label><br>
-            <input type="radio" id="reservation" name="reservation" value="reservation">
+            <input type="radio" id="reservation" name="reason" value="reservation">
             <label for="reservation">Reservation Question</label><br>
-            <input type="radio" id="suggestion" name="suggestion" value="suggestion">
+            <input type="radio" id="suggestion" name="reason" value="suggestion">
             <label for="suggestion">Website Suggestion</label>
             </div>
 
             <textarea id="comment" name="comment" rows="4" placeholder="Leave your comment here!"></textarea>
-            
+            <div class="form-item">
             <input type="checkbox" id="newsletter" name="newsletter" value="newsletter">
             <label for="newsletter">Please subscribe me to the monthly newsletter</label><br>
+            </div>
             </fieldset>
 
             <button type="submit">Submit Comment</button>

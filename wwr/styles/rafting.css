@@ -10,7 +10,7 @@
     --primary-color: #5C5552;
     --secondary-color: #8F857D;
     --accent1-color: #DECBB7;
-    --accent2-color: #F7F0F5;
+    --accent2-color: #FFF0F5;
     
     --heading-font: 'Open Sans', sans-serif;
     --paragraph-font: 'Roboto', sans-serif;
@@ -18,7 +18,7 @@
     --nav-background-color: #5C5552;
     --nav-link-color: #DECBB7;
     --nav-hover-link-color: #8F857D;
-    --nav-hover-background-color: #F7F0F5;
+    --nav-hover-background-color: #FFF0F5;
     }
 
 h1,h2, h3, h4, h5, h6 {
@@ -28,6 +28,7 @@ h1,h2, h3, h4, h5, h6 {
     
 body {
     font-family: var(--paragraph-font);
+    font-size:20px;
     max-width: 960px;
     padding: 20px;
     color: var(--accent2-color);
@@ -64,7 +65,7 @@ section {
 
 img{
     max-width: 100%;
-    max-height: auto;
+    max-height: 100%;
 }
 
 footer {

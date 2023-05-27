@@ -8,7 +8,7 @@
 
 :root {
     --primary-color: #4D4B30;
-    --secondary-color: #908660;
+    --secondary-color: #817656;
     --accent1-color: #DECBB7;
     --accent2-color: #FFF0F5;
     --accent3-color: #000000;
@@ -18,7 +18,7 @@
     
     --nav-background-color: #4D4B30;
     --nav-link-color: #DECBB7;
-    --nav-hover-link-color: #908660;
+    --nav-hover-link-color: #817656;
     --nav-hover-background-color: #FFF0F5;
     }
 

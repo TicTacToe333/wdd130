@@ -11,6 +11,7 @@
     --secondary-color: #908660;
     --accent1-color: #DECBB7;
     --accent2-color: #FFF0F5;
+    --accent3-color: #000000;
     
     --heading-font: 'Open Sans', sans-serif;
     --paragraph-font: 'Roboto', sans-serif;
@@ -21,7 +22,7 @@
     --nav-hover-background-color: #FFF0F5;
     }
 
-h1,h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
     color: var(--primary-color);
     }
@@ -53,6 +54,7 @@ a {
 h2{
     grid-column: span 5 ;
     text-align:center;
+    color: var(--accent3-color);
 }
 section {
     background-color: var(--secondary-color);

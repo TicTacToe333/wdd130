@@ -38,6 +38,7 @@ body {
     }
 
 header {
+    font-size:30px;
     padding: 20px;
     background-color: var(--accent1-color);
     display:grid;
@@ -52,7 +53,7 @@ a {
 }
 /*Might need to fix this later. Find a better way for h2 to span the whole row*/
 h2{
-    grid-column: span 5 ;
+    grid-column: span 5;
     text-align:center;
     color: var(--accent3-color);
 }
@@ -164,16 +165,17 @@ table, td, th {
     border: 1px solid;
   }
   
-  table {
-    height:200px;
+table {
+    height:auto;
     text-align:center;
     width: 100%;
     border-collapse: collapse;
     color: var(--accent3-color);
     background-color: var(--accent1-color);
-  }
+}
 
 .redirect{
+    background-color: var(--accent2-color);
     display:flex;
     flex-direction: column;
     align-items: center;
@@ -182,5 +184,29 @@ table, td, th {
     border-right:5px solid var(--accent3-color);
     border-top:3px solid var(--accent3-color);
     border-bottom:3px solid var(--accent3-color);
+    grid-column:span 3;
     
+}
+
+.double-column{
+    display:grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+}
+
+.blog{
+    color: var(--accent3-color);
+    background-color: var(--accent1-color);
+    padding:20px;
+}
+
+.trips{
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 1fr 1fr;
+}
+
+.book-now{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
